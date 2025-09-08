@@ -297,7 +297,7 @@ push();
     
     push();
     fill("rgb(255,255,255)");
-    translate(valor / 9, -valor / 30, valor / 5);    //hojos
+    translate(valor / 9, -valor / 30, valor / 5);    //ojos
     rotate(95.8,[30,0,0]);
     cylinder(valor / 16, valor / 90);
     pop();
@@ -311,7 +311,7 @@ push();
      
     push();
     fill("rgb(255,255,255)");
-    translate(-valor / 9, -valor / 30, valor / 5);   //hojos
+    translate(-valor / 9, -valor / 30, valor / 5);   //ojos
     rotate(95.8,[30,0,0]);
     cylinder(valor / 16, valor / 90);
     pop();
