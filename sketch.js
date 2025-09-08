@@ -274,7 +274,7 @@ function setup() {
 }
 
 function draw() {
-    background("white");
+    background("rgb(114, 129, 255)");
     pointLight(255, 255, 255, valor / 1, valor / 1, 20);
     orbitControl();
     specularMaterial(255);
@@ -293,6 +293,16 @@ push();
     fill("black");
     translate(-valor / 9, -valor / 30, valor / 5);   //lentes
     torus(valor / 14, valor / 80);
+    pop();
+    
+     push();
+   
+    translate(valor /500, -valor / 30, valor /6);
+    rotateX(HALF_PI); //centro del lente
+    noFill();
+    stroke(0);
+    strokeWeight(3);                   
+    torus(valor /25, valor / 200); 
     pop();
     
     push();
